@@ -1,5 +1,5 @@
 USE olist_ecommerce;
--- LATE DELIVERY ORDERS & PERCENTAGE
+-- LATE DELIVERY ORDERS & PERCENTAGE  ----------------------------------------------
 SELECT
     COUNT(*) AS delivered_orders_analyzed,
 
@@ -64,7 +64,7 @@ WHERE order_status = 'delivered'
 
 
 USE olist_ecommerce;
--- LATE DELIVERY ORDERS BY MONTHS
+-- LATE DELIVERY ORDERS BY MONTHS ----------------------------------------------
 SELECT
     DATE_FORMAT(
         STR_TO_DATE(order_purchase_timestamp, '%Y-%m-%d %H:%i:%s'),
@@ -107,7 +107,7 @@ WHERE order_status = 'delivered'
 GROUP BY purchase_month
 ORDER BY purchase_month;
 
--- AVG DELAY DAYS
+-- AVG DELAY DAYS   --------------------------------------------------
 SELECT
     COUNT(*) AS late_orders_analyzed,
 

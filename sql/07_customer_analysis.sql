@@ -1,5 +1,5 @@
 USE olist_ecommerce;
-
+-- CHECK TOTAL ORDERS  ------------------------------------
 SELECT
     customer_id,
     COUNT(order_id) AS total_orders
@@ -7,8 +7,8 @@ FROM orders
 GROUP BY customer_id
 ORDER BY total_orders DESC;
 
+-- REPEATED ORDERS BY SINGLE CUSTOMER -----------------------------------------------------
 USE olist_ecommerce;
-
 SELECT
     c.customer_unique_id,
     COUNT(o.order_id) AS total_orders
@@ -18,8 +18,8 @@ JOIN orders AS o
 GROUP BY c.customer_unique_id
 ORDER BY total_orders DESC;
 
+-- REPEATED CUSTOMER PERENTAGE  ----------------------------------------------------
 USE olist_ecommerce;
-
 WITH customer_order_counts AS (
     SELECT
         c.customer_unique_id,
@@ -60,7 +60,7 @@ SELECT
 FROM customer_order_counts;
 
 
--- FOR CTE PRACTICE
+-- FOR CTE PRACTICE   ------------------------------------------------------------------------------
 
 USE olist_ecommerce;
 
