@@ -28,3 +28,5 @@ Thumbs.db
 # Dataset files are kept locally and not committed to Git
 raw_data/
 cleaned_data/
+
+python/test_mysql_connection.py

@@ -29,11 +29,14 @@ This project is currently **In Progress**.
 * Python data cleaning and cleaning validation
 * MySQL data import and row-count verification
 * SQL business analysis
+* Python Exploratory Data Analysis (EDA)
+* Descriptive statistics and data visualizations
+* Excel Business Analysis using Microsoft Excel 2021
+* Business Summary and KPI reporting
+* Business-level validation and analysis
 
 ### In Progress / Planned
 
-* Python exploratory data analysis (EDA) and basic statistics
-* Microsoft Excel business analysis and reporting
 * Power BI data modeling and dashboard development
 * Consolidation of business insights and final project documentation
 
@@ -82,9 +85,11 @@ Most CSV files were imported directly into MySQL. The `products` and `reviews` t
 ## Project Structure
 
 ```text
-├── python/          # Python scripts for profiling, validation, cleaning, and MySQL imports
+├── python/          # Python scripts for profiling, validation, cleaning, MySQL imports, and EDA
 ├── sql/             # SQL scripts for data validation and business analysis
-├── documentation/   # Data dictionary and data cleaning strategy
+├── documentation/   # Data dictionary, data cleaning strategy, and EDA notes
+├── excel/           # Excel business analysis, CSV summaries, and business analysis workbook
+├── visualizations/  # Python EDA charts and visualizations
 ├── powerbi/         # Planned location for Power BI project files
 ├── raw_data/        # Local raw dataset files, excluded from Git
 └── cleaned_data/    # Local cleaned dataset files, excluded from Git
