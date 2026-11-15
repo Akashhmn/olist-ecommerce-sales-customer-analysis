@@ -1,6 +1,6 @@
 Excel Business Analysis
 
-1. Objective
+## 1. Objective
 
 Use Microsoft Excel 2021 to perform business-level analysis and validate the outputs generated through Python Exploratory Data Analysis (EDA).
 
@@ -8,32 +8,33 @@ Excel is used to organize selected analytical datasets, calculate business KPIs,
 
 The purpose is not to manually clean or process the complete raw dataset in Excel. Python handles the heavier data-processing and analytical tasks, while Excel provides an additional business-analysis and validation layer.
 
-2. Tools and Technologies
+## 2. Tools and Technologies
 
 - Microsoft Excel 2021: Business analysis, KPI calculations, summary tables, formatting, and data validation.
 - Python (Pandas): Preparation and export of selected analytical datasets.
 - CSV: Data exchange between Python and Excel.
 
-3. Data Sources
+## 3. Data Sources
 
 The following seven analytical CSV files were generated using the Python export script:
 
-File Name| Analysis Purpose
-monthly_analysis.csv| Monthly payment value and sales trend analysis
-category_analysis.csv| Product category performance
-customer_analysis.csv| Customer purchasing behaviour
-seller_analysis.csv| Seller-level performance
-delivery_analysis.csv| Delivery performance and delivery status
-review_analysis.csv| Customer review score analysis
-payment_analysis.csv| Payment method and payment value analysis
+| File Name | Analysis Purpose |
+|---|---|
+| `monthly_analysis.csv` | Monthly payment value and sales trend analysis |
+| `category_analysis.csv` | Product category performance |
+| `customer_analysis.csv` | Customer purchasing behaviour |
+| `seller_analysis.csv` | Seller-level performance |
+| `delivery_analysis.csv` | Delivery performance and delivery status |
+| `review_analysis.csv` | Customer review score analysis |
+| `payment_analysis.csv` | Payment method and payment value analysis |
 
 All seven CSV files are stored in the project's "excel/" directory.
 
 The Excel workbook is saved as:
 
-"ollist business analysis.xlsx"
+"olist business analysis.xlsx"
 
-4. Excel Business Analysis
+##  4. Excel Business Analysis
 
 The exported datasets were imported into Microsoft Excel 2021 and converted into structured Excel tables where applicable.
 
@@ -47,7 +48,7 @@ The analysis includes:
 - Review Analysis: Examination of customer review scores and rating distribution.
 - Payment Analysis: Comparison of payment methods, transaction counts, and recorded payment values.
 
-5. Business Summary
+## 5. Business Summary
 
 A consolidated Business Summary was prepared to present important business-level metrics and findings in an organized format.
 
@@ -63,7 +64,9 @@ It provides a structured overview of:
 - Customer review patterns.
 - Payment method distribution.
 
-6. Data Validation
+The Business Summary also includes consolidated KPI cards, business performance highlights, monthly payment trends, customer purchasing frequency, delivery status distribution, and key business observations.
+
+## 6. Data Validation
 
 Excel was also used as an additional validation layer.
 
@@ -78,7 +81,7 @@ The following checks were performed:
 
 The purpose of these checks is to improve consistency between Python-generated outputs and Excel business summaries.
 
-7. Formatting and Presentation
+## 7. Formatting and Presentation
 
 The workbook was formatted to improve readability and professional presentation.
 
@@ -91,19 +94,31 @@ The work included:
 - Suitable chart and page layouts.
 - Page setup and print formatting.
 
-8. Limitations
+## 8. Limitations
 
 - Excel analysis uses selected datasets exported from Python rather than the complete raw dataset.
 - The accuracy of Excel summaries depends on the correctness of the source analytical outputs and formulas.
 - Recorded payment values and item sales values should not be interpreted as profit.
 - The analysis describes observed business patterns and does not independently establish their causes.
 
-9. Status
 
-Completed: Excel Business Analysis, CSV imports, structured tables, KPI calculations, business summary, validation checks, and workbook formatting.
+## 9. Status
 
-Workbook: "ollist business analysis.xlsx"
+**Status:** Completed
 
-Tool: Microsoft Excel 2021
+The Excel Business Analysis phase has been completed, including:
 
-The Excel Business Analysis phase is completed.
+- Seven analytical CSV imports.
+- Structured Excel tables.
+- Business-level KPI calculations.
+- Pivot-based analysis and validation.
+- Consolidated Business Summary.
+- Business performance visualizations.
+- Data validation against Python-generated outputs.
+- Workbook formatting and print layout.
+
+**Workbook:** `olist_business_analysis.xlsx` (verify against the actual saved filename)
+
+**Tool:** Microsoft Excel 2021
+
+The Excel Business Analysis phase is complete. The next project phase is Power BI Data Modeling and Dashboard Development.

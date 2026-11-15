@@ -32,8 +32,8 @@ This project is currently **In Progress**.
 * Python Exploratory Data Analysis (EDA)
 * Descriptive statistics and data visualizations
 * Excel Business Analysis using Microsoft Excel 2021
-* Business Summary and KPI reporting
-* Business-level validation and analysis
+* Business Summary dashboard and printable reporting
+* Excel KPI calculations and source-data validation
 
 ### In Progress / Planned
 
@@ -79,7 +79,7 @@ Most CSV files were imported directly into MySQL. The `products` and `reviews` t
 
 * **Python** — Data profiling, data quality checks, validation, and data cleaning
 * **MySQL 8.0** — Data validation and business analysis using SQL
-* **Microsoft Excel** — Business analysis and reporting (planned)
+* **Microsoft Excel 2021** — Business analysis, KPI reporting, Pivot Tables, and business-level validation
 * **Power BI** — Data modeling and dashboard development (planned)
 
 ## Project Structure
